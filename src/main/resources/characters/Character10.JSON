@@ -1,0 +1,25 @@
+{
+    "cost": "1",
+    "image": "10",
+    "description": "You may exchange up to 2 students between your Entrance and your Dining Room.",
+
+    "setup_required": false,
+    "setup_object": "NA",
+    "setup_number": "0",
+
+    "effect_type": "exchange",
+    
+    "effect_scope": "self",
+    "effect_object": "student",
+    "effect_condition": "any",
+    "effect_choose_condition": "NA",
+
+    "effect_source": "entrance",
+    "effect_choose_source": "player",
+    "effect_target": "dining_room",
+    "effect_choose_target": "player",
+
+    "effect_number_min": "0",
+    "effect_number_max": "2",
+    "effect_choose_number": "player"
+  }

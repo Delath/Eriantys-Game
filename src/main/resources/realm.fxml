@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.client.gui.controllers.RealmController">
+   <children>
+      <AnchorPane maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <ImageView fitHeight="1706.0" fitWidth="3127.0" layoutX="-573.0" layoutY="-340.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/bg-realm.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island2" fitHeight="150.0" fitWidth="150.0" layoutX="149.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island1" fitHeight="150.0" fitWidth="150.0" layoutX="38.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island6" fitHeight="150.0" fitWidth="150.0" layoutX="989.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island11" fitHeight="150.0" fitWidth="150.0" layoutX="346.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island8" fitHeight="150.0" fitWidth="150.0" layoutX="999.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island3" fitHeight="150.0" fitWidth="150.0" layoutX="346.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island12" fitHeight="150.0" fitWidth="150.0" layoutX="149.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island10" fitHeight="150.0" fitWidth="150.0" layoutX="574.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island5" fitHeight="150.0" fitWidth="150.0" layoutX="793.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island9" fitHeight="150.0" fitWidth="150.0" layoutX="793.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island7" fitHeight="150.0" fitWidth="150.0" layoutX="1107.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="island4" fitHeight="150.0" fitWidth="150.0" layoutX="574.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/island1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cloud1" fitHeight="150.0" fitWidth="150.0" layoutX="466.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/cloud.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cloud3" fitHeight="150.0" fitWidth="150.0" layoutX="340.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/cloud.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cloud2" fitHeight="150.0" fitWidth="150.0" layoutX="684.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/cloud.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cloud4" fitHeight="150.0" fitWidth="150.0" layoutX="793.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/cloud.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bag" fitHeight="75.0" fitWidth="75.0" layoutX="615.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/bag.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="profiles" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Game status">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="schoolboard" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" text="Schoolboard">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="assistants" layoutX="14.0" layoutY="607.0" mnemonicParsing="false" text="Deck">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="characters" layoutX="14.0" layoutY="644.0" mnemonicParsing="false" text="Characters">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="pass" layoutX="1139.0" layoutY="681.0" mnemonicParsing="false" text="Pass turn">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="menu" layoutX="1225.0" layoutY="681.0" mnemonicParsing="false" text="Quit">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Pane fx:id="stackPane1" layoutX="38.0" layoutY="260.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane2" layoutX="148.0" layoutY="90.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane3" layoutX="346.0" layoutY="15.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane4" layoutX="574.0" layoutY="15.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane5" layoutX="793.0" layoutY="15.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane6" layoutX="989.0" layoutY="83.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane7" layoutX="1107.0" layoutY="266.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane8" layoutX="999.0" layoutY="438.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane9" layoutX="793.0" layoutY="493.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane10" layoutX="574.0" layoutY="487.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane11" layoutX="340.0" layoutY="487.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="stackPane12" layoutX="154.0" layoutY="428.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="cloudStackPane1" layoutX="466.0" layoutY="346.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="cloudStackPane2" layoutX="684.0" layoutY="346.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="cloudStackPane3" layoutX="340.0" layoutY="217.0" prefHeight="1.0" prefWidth="1.0">
+            </Pane>
+            <Pane fx:id="cloudStackPane4" layoutX="793.0" layoutY="217.0" prefHeight="135.0" prefWidth="150.0">
+            </Pane>
+            <Button fx:id="undo" layoutX="626.0" layoutY="340.0" mnemonicParsing="false" text="Undo">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="colorBtn" layoutX="1180.0" layoutY="123.0" mnemonicParsing="false" text="Choose color">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="sourceStudentsBtn" layoutX="1122.0" layoutY="19.0" mnemonicParsing="false" text="Choose source students">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="targetStudentsBtn" layoutX="1125.0" layoutY="54.0" mnemonicParsing="false" text="Choose target students">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="targetPiecesBtn" layoutX="1137.0" layoutY="90.0" mnemonicParsing="false" text="Choose target pieces">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="characterChecklistBtn" layoutX="578.0" layoutY="293.0" mnemonicParsing="false" text="Character checklist">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
