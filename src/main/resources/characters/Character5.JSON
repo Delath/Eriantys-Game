@@ -1,0 +1,25 @@
+{
+    "cost": "2",
+    "image": "5",
+    "description": "Place a No Entry tile on an Island of you choice. The first time Mother Nature ends her movement there, do not calculate influence on that island and take back the No Entry Tile.",
+
+    "setup_required": true,
+    "setup_object": "no_entry",
+    "setup_number": "4",
+
+    "effect_type": "add",
+    
+    "effect_scope": "NA",
+    "effect_object": "no_entry",
+    "effect_condition": "any",
+    "effect_choose_condition": "NA",
+
+    "effect_source": "character",
+    "effect_choose_source": "NA",
+    "effect_target": "island",
+    "effect_choose_target": "player",
+
+    "effect_number_min": "1",
+    "effect_number_max": "1",
+    "effect_choose_number": "no"
+  }

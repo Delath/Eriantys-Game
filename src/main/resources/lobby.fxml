@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.client.gui.controllers.LobbyController">
+    <children>
+        <AnchorPane maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0">
+            <children>
+                <ImageView fitHeight="1327.0" fitWidth="2433.0" layoutX="-522.0" layoutY="-305.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/background.png" />
+                    </image>
+                </ImageView>
+                <Polygon fill="#515151" layoutX="-66.0" layoutY="156.0" points="543.888916015625, 172.0, 881.888916015625, 172.0, 881.888916015625, 94.0, 543.888916015625, 94.0" stroke="BLACK" strokeType="INSIDE" />
+                <Text fill="WHITE" layoutX="481.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Added to lobby." textAlignment="CENTER" wrappingWidth="330.13671875">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Text>
+            <Text fill="WHITE" layoutX="481.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The game will start as soon as all players have joined." textAlignment="CENTER" wrappingWidth="330.13671875">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="message" fill="WHITE" layoutX="481.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Loading..." textAlignment="CENTER" wrappingWidth="330.13671875">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>
